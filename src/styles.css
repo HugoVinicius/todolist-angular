@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(60deg, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.conteudo {
+    /* border: 1px rgb(246, 0, 0) solid; */
+    width: 70vw;
+    padding: 20px;
+}
+
+.button-opcao {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-principal {
+    font-size: large;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 6%;
+    display: block;
+    cursor: pointer;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Cedarville Cursive', cursive;
+}
